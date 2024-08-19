@@ -9,6 +9,7 @@ interface CountriesInterface {
   public function getTopBy($key, $limit = 10, $order = 'desc');
   public function getByRegion($region, $limit = 10);
   public function getAllCountriesNames();
+  public function getCountry($name);
 }
 
 class Countries implements CountriesInterface {

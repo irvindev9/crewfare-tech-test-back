@@ -2,10 +2,6 @@
 
 namespace App\Models;
 
-interface CountryInterface {
-  public function getCountry($name);
-}
-
 class Country {
   public $name;
   public $tld;
